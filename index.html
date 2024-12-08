@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lal Air</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Lal Air</h1>
+    </header>
+    <main>
+        <section id="booking-form">
+            <h2>Book a Flight</h2>
+            <form id="flightForm">
+                <label for="passengerName">Passenger Name:</label>
+                <input type="text" id="passengerName" name="passengerName" required>
+                <label for="flightNumber">Flight Number:</label>
+                <input type="text" id="flightNumber" name="flightNumber" required>
+                <button type="submit">Book Flight</button>
+            </form>
+        </section>
+        <section id="flight-info">
+            <h2>Current Bookings</h2>
+            <ul id="bookingsList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
